@@ -35,7 +35,8 @@ Windows环境安装Terminal命令行，（这样运行显示更漂亮，花花�
 
 ![Image text](https://github.com/d3ckx1/Fvuln/blob/main/9.png)
 
-
+# 支持的系统
+因为是python编写的，但源代码不公开，然后又懒，暂时就打包了一个exe的，等下一版更新一些其他功能和poc，再打包一个Linux版本的。 :)
 
 
 # 欢迎大家使用，并向我提出宝贵意见，以及欢迎大家给我提供poc/exp，漏洞模板在项目里

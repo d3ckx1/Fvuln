@@ -35,6 +35,10 @@ Windows环境安装Terminal命令行，（这样运行显示更漂亮，花花�
 
 ![Image text](https://github.com/d3ckx1/Fvuln/blob/main/9.png)
 
+# 缺点
+1、因为调用了nmap探测，故探测存活IP比较慢；
+2、爆破工作时命令行上会出现大量报错，但不影响爆破工作、报表里不会保存这些报错。
+
 # 支持的系统
 因为是python编写的，但源代码不公开，然后又懒，暂时就打包了一个exe的，等下一版更新一些其他功能和poc，再打包一个Linux版本的。 :)
 

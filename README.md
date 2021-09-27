@@ -35,6 +35,11 @@ Windows环境安装Terminal命令行，（这样运行显示更漂亮，花花�
 
 ![Image text](https://github.com/d3ckx1/Fvuln/blob/main/9.png)
 
+批量执行：Fvuln.exe -f ip.txt
+
+如果觉得我存活探测慢或者工作中又其他需求需要对特定IP进行扫描工作，可以把IP地址，写进txt里，使用这个功能正常进行全部工作。
+懒.... 这个图就没有了
+
 # 缺点
 1、因为调用了nmap探测，故探测存活IP比较慢；
 

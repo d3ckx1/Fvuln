@@ -22,7 +22,7 @@ Windows环境安装Terminal命令行，（这样运行显示更漂亮，花花�
 
 单URL检测：Fvuln.exe -u http://192.168.1.1
 
-![Image text](https://github.com/d3ckx1/Fvuln/blob/main/1.png)
+![Image text](https://github.com/d3ckx1/Fvuln/blob/main/url-check.png)
 
 查看帮助: Fvuln.exe -h 
 

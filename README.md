@@ -3,9 +3,13 @@ F-vuln（全称：Find-Vulnerability）是为了自己工作方便专门编写�
 
 # v1.4更新
 1、新增22个WEB漏洞检测poc；
+
 2、新增批量URL漏洞检测；
+
 3、新增自动fofa目标抓取并漏洞扫描;
+
 4、新增对爆破模块是否启动可控，“y”为继续爆破 “n”为停止爆破；
+
 5、修复IP存活，但未探测到开放端口报错bug。
 
 
@@ -30,11 +34,16 @@ Windows环境安装Terminal命令行，（这样运行显示更漂亮，花花�
 # 使用命令_v1.4 版:
 
 fofa批量搜索检测：Fvuln.exe -fofa "泛微云桥"
-# 注：再同目录下创建“key.txt”文件，文件内第一行写入邮箱地址；第二行写入你的key
+
+
+ 注：再同目录下创建“key.txt”文件，文件内第一行写入邮箱地址；第二行写入你的key
+ 
+ 图片下次放。。。
 
 
 批量URL检测：Fvuln.exe -us urls.txt
 
+图片下次放。。。。
 
 单URL检测：Fvuln.exe -u http://192.168.1.1
 
@@ -73,7 +82,9 @@ fofa批量搜索检测：Fvuln.exe -fofa "泛微云桥"
 
 # 支持的系统
 window系统请下载exe版本；
-Linux版本请在:)
+Linux版本请在 Releases 中下载
+https://github.com/d3ckx1/Fvuln/releases
+:)
 
 
 # 欢迎大家使用，并向我提出宝贵意见，以及欢迎大家给我提供poc/exp，漏洞模板在项目里

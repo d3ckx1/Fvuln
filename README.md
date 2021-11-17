@@ -35,15 +35,21 @@ Windows环境安装Terminal命令行，（这样运行显示更漂亮，花花�
 
 fofa批量搜索检测：Fvuln.exe -fofa "泛微云桥"
 
+ 
+![Image text](https://github.com/d3ckx1/Fvuln/blob/main/fofa.png)
 
  注：再同目录下创建“key.txt”文件，文件内第一行写入邮箱地址；第二行写入你的key
- 
- 图片下次放。。。
+ ![Image text](https://github.com/d3ckx1/Fvuln/blob/main/key.png)
+
 
 
 批量URL检测：Fvuln.exe -us urls.txt
 
-图片下次放。。。。
+![Image text](https://github.com/d3ckx1/Fvuln/blob/main/urls.png)
+
+注：url.txt 里面放的是URL网站，如下图，v1.4版里需要在URL后面加个“/”，下一版会修复该bug
+![Image text](https://github.com/d3ckx1/Fvuln/blob/main/url_txt.png)
+或者直接不要http，我写了识别没有http，会自己添加  "http://" 与 “/”
 
 单URL检测：Fvuln.exe -u http://192.168.1.1
 
@@ -73,7 +79,10 @@ fofa批量搜索检测：Fvuln.exe -fofa "泛微云桥"
 批量执行：Fvuln.exe -f ip.txt
 
 如果觉得我存活探测慢或者工作中又其他需求需要对特定IP进行扫描工作，可以把IP地址，写进txt里，使用这个功能正常进行全部工作。
-懒.... 这个图就没有了
+
+如图；
+![Image text](https://github.com/d3ckx1/Fvuln/blob/main/ip_txt.png)
+
 
 # 缺点
 1、因为调用了nmap探测，故探测存活IP比较慢；

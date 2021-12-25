@@ -18,9 +18,7 @@ F-vuln（全称：Find-Vulnerability）是为了自己工作方便专门编写�
 
 # 注：未经允许不可用于非法扫描攻击，请遵守国家法律法规
 
-# 去除nmap依赖，可以不安装
-安装nmap工具，
-下载地址：https://nmap.org/
+
 
 # 建议运行环境
 Windows环境安装Terminal命令行，（这样运行显示更漂亮，花花绿绿的）

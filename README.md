@@ -43,7 +43,7 @@ fofa批量搜索检测：Fvuln.exe -fofa "泛微云桥"
 
 ![Image text](https://github.com/d3ckx1/Fvuln/blob/main/urls.png)
 
-注：url.txt 里面放的是URL网站，如下图，v1.4版里需要在URL后面加个“/”，下一版会修复该bug
+注：url.txt 里面放的是URL网站，如下图，
 ![Image text](https://github.com/d3ckx1/Fvuln/blob/main/url_txt.png)
 或者直接不要http，我写了识别没有http，会自己添加  "http://" 与 “/”
 

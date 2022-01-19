@@ -1,6 +1,11 @@
 # Fvuln
 F-vuln（全称：Find-Vulnerability）是为了自己工作方便专门编写的一款自动化工具，主要适用于日常安全服务、渗透测试人员和RedTeam红队人员，它集合的功能包括：存活IP探测、开放端口探测、web服务探测、web漏洞扫描、smb爆破、ssh爆破、ftp爆破、mssql爆破等其他数据库爆破工作以及大量web漏洞检测模块。它可以根据目标开放的服务进行特定操作，不做无用功。适用于内网环境、互联网，对发现的安全问题，自动生成保存有用的内容在txt表里，以方便安全人员对授权项目完成测试工作。
 
+# v1.4.2 更新
+1、新增34个poc；
+2、修复bug；
+3、新增图标。
+
 # v1.4.1更新
 1、新增30个poc；
 2、修复去除nmap依赖；
@@ -83,15 +88,14 @@ fofa批量搜索检测：Fvuln.exe -fofa "泛微云桥"
 1、爆破ssh工作时命令行上会出现大量报错，但不影响爆破工作、报表里不会保存这些报错。
 
 # 支持的系统
-window系统请下载exe版本；
-Linux版本请在 Releases 中下载
+windowexe版本\Linux版本请在 Releases 中下载
 https://github.com/d3ckx1/Fvuln/releases
+
 :)
 
 
-# 欢迎大家使用，并向我提出宝贵意见，以及欢迎大家给我提供poc/exp，漏洞模板在项目里
+# 欢迎大家使用，并向我提出宝贵意见，以及欢迎大家给我提供poc/exp.
 
-模板：https://github.com/d3ckx1/Fvuln/blob/main/cas_4_1_rce.py
 
 ![Image text](https://github.com/d3ckx1/Fvuln/blob/main/%E5%BE%AE%E4%BF%A1.jpg)
 

@@ -285,6 +285,11 @@
  | 280 | joomla_346_rce                  |  Check the Joomla! 3.4.6 'configuration.php' RCE漏洞
  | 281 | joomla_cve20157297_sql          |  Check the Joomla SQL注入漏洞（cve-2015-7297）
  | 282 | spring_cve202222947             |  Check the Spring Cloud Gateway RCE漏洞（CVE-2022-22947）
+ | 283 | joomla_cve20187314_sql          |  Check the Joomla CVE-2018-7314 SQL注入漏洞
+ | 284 | joomla_cve20186605_sql          |  Check the Joomla CVE-2018-6605 SQL注入漏洞
+ | 285 | jumpserver_unauth               |  Check the JumpServer未授权RCE漏洞
+ | 286 | kafka_manager_unauth            |  Check the kafka manager unauth vuln
+ | 287 | spring_function_SpEL_RCE        |  Check the spring cloud function SpEL RCE漏洞
  +---------------------------------------+----------------------------------------------------------------+
 
 

@@ -51,6 +51,8 @@ Windows环境安装Terminal命令行，（这样运行显示更漂亮美观）
 如下图这些都可以
 ![Image text](https://github.com/d3ckx1/Fvuln/blob/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20210926222313.png)
 
+Linux环境使用默认命令行终端即可。
+
 # 使用命令_v1.4 版:
 
 fofa批量搜索检测：Fvuln.exe -fofa "泛微云桥"

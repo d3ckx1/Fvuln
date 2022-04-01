@@ -49,7 +49,7 @@ https://github.com/d3ckx1/Fvuln/blob/main/vuln-list.txt
 # 建议运行环境
 Windows环境安装Terminal命令行，（这样运行显示更漂亮美观）
 如下图这些都可以
-![Image text](https://github.com/d3ckx1/Fvuln/blob/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20210926222313.png)
+![Image text](https://github.com/d3ckx1/Fvuln/blob/main/image/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20210926222313.png)
 
 Linux环境使用默认命令行终端即可。
 
@@ -58,52 +58,52 @@ Linux环境使用默认命令行终端即可。
 fofa批量搜索检测：Fvuln.exe -fofa "泛微云桥"
 
  
-![Image text](https://github.com/d3ckx1/Fvuln/blob/main/fofa.png)
+![Image text](https://github.com/d3ckx1/Fvuln/blob/main/image/fofa.png)
 
  注：再同目录下创建“key.txt”文件，文件内第一行写入邮箱地址；第二行写入你的key
- ![Image text](https://github.com/d3ckx1/Fvuln/blob/main/key.png)
+ ![Image text](https://github.com/d3ckx1/Fvuln/blob/main/image/key.png)
 
 
 
 批量URL检测：Fvuln.exe -us urls.txt
 
-![Image text](https://github.com/d3ckx1/Fvuln/blob/main/urls.png)
+![Image text](https://github.com/d3ckx1/Fvuln/blob/main/image/urls.png)
 
 注：url.txt 里面放的是URL网站，如下图，
-![Image text](https://github.com/d3ckx1/Fvuln/blob/main/url_txt.png)
+![Image text](https://github.com/d3ckx1/Fvuln/blob/main/image/url_txt.png)
 或者直接不要http，我写了识别没有http，会自己添加  "http://" 与 “/”
 
 单URL检测：Fvuln.exe -u http://192.168.1.1
 
-![Image text](https://github.com/d3ckx1/Fvuln/blob/main/url-check.png)
+![Image text](https://github.com/d3ckx1/Fvuln/blob/main/image/url-check.png)
 
 查看帮助: Fvuln.exe -h 
 
-![Image text](https://github.com/d3ckx1/Fvuln/blob/main/1.png)
+![Image text](https://github.com/d3ckx1/Fvuln/blob/main/image/1.png)
 
 查看现在能检测的漏洞模块：Fvuln.exe -l  or Fvuln.exe --list
 
-![Image text](https://github.com/d3ckx1/Fvuln/blob/main/2.png)
-![Image text](https://github.com/d3ckx1/Fvuln/blob/main/3.png)
-![Image text](https://github.com/d3ckx1/Fvuln/blob/main/4.png)
-![Image text](https://github.com/d3ckx1/Fvuln/blob/main/5.png)
+![Image text](https://github.com/d3ckx1/Fvuln/blob/main/image/2.png)
+![Image text](https://github.com/d3ckx1/Fvuln/blob/main/image/3.png)
+![Image text](https://github.com/d3ckx1/Fvuln/blob/main/image/4.png)
+![Image text](https://github.com/d3ckx1/Fvuln/blob/main/image/5.png)
 
 执行： Fvuln.exe -t 192.168.0.100  or Fvuln.exe 192.168.0.1/24
 
-![Image text](https://github.com/d3ckx1/Fvuln/blob/main/6.png)
-![Image text](https://github.com/d3ckx1/Fvuln/blob/main/7.png)
-![Image text](https://github.com/d3ckx1/Fvuln/blob/main/8.png)
+![Image text](https://github.com/d3ckx1/Fvuln/blob/main/image/6.png)
+![Image text](https://github.com/d3ckx1/Fvuln/blob/main/image/7.png)
+![Image text](https://github.com/d3ckx1/Fvuln/blob/main/image/8.png)
 
 执行完成，查看报表：
 
-![Image text](https://github.com/d3ckx1/Fvuln/blob/main/9.png)
+![Image text](https://github.com/d3ckx1/Fvuln/blob/main/image/9.png)
 
 批量执行：Fvuln.exe -f ip.txt
 
 如果觉得我存活探测慢或者工作中又其他需求需要对特定IP进行扫描工作，可以把IP地址，写进txt里，使用这个功能正常进行全部工作。
 
 如图；
-![Image text](https://github.com/d3ckx1/Fvuln/blob/main/ip_txt.png)
+![Image text](https://github.com/d3ckx1/Fvuln/blob/main/image/ip_txt.png)
 
 
 # 缺点
@@ -119,7 +119,7 @@ https://github.com/d3ckx1/Fvuln/releases
 
 # 欢迎大家使用，并向我提出宝贵意见，以及欢迎大家给我提供poc/exp.
 
-![Image text](https://github.com/d3ckx1/Fvuln/blob/main/%E5%BE%AE%E4%BF%A1.jpg)
+![Image text](https://github.com/d3ckx1/Fvuln/blob/main/image/%E5%BE%AE%E4%BF%A1.jpg)
 
 ## 🏁 Star曲线
 ![star](https://starchart.cc/d3ckx1/Fvuln.svg)

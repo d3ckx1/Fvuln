@@ -1,6 +1,6 @@
 <!-- markdownlint-disable first-line-heading -->
 <p align="center">
-  <img src="https://github.com/d3ckx1/Fvuln/blob/main/logo.png" alt="Fvuln" height="150" />
+  <img src="https://github.com/d3ckx1/Fvuln/blob/main/image/logo.png" alt="Fvuln" height="150" />
   <h1 align="center" > F-vuln </h1>
 <p align="center">
   

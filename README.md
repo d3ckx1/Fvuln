@@ -10,7 +10,6 @@
   
 <p align="center">
     <a href="https://www.github.com/d3ckx1" target="_blank"><img src="https://img.shields.io/badge/作者-d3ckx1-2277cc.svg?style=flat-square&logo=GitHub"></a>
-    <a href="https://github.com/d3ckx1/Fvuln"><img alt="Fvuln" src="https://visitor-badge.glitch.me/badge?page_id=Paper-Pen.Fvuln"></a>
   <a href="https://github.com/d3ckx1/Fvuln"><img alt="Fvuln" src="https://img.shields.io/github/forks/d3ckx1/Fvuln.svg"></a>
     <a href="https://github.com/d3ckx1/Fvuln"><img alt="Fvuln" src="https://img.shields.io/github/issues/d3ckx1/Fvuln.svg"></a>
     <a href="https://github.com/d3ckx1/Fvuln"><img alt="Fvuln" src="https://img.shields.io/github/stars/d3ckx1/Fvuln.svg"></a>

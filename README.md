@@ -17,14 +17,11 @@
 </p>
 
 
-# v1.4.4 更新
-1、新增 spring cloud function SpEL RCE漏洞；
-2、新增4个poc；
-3、修复部分漏洞检测bug。
+# v1.4.5 更新
 
-# v1.4.3 更新
-1、新增32个poc，现共271个web漏洞；
-2、修复fofa.so。
+1、新增 52个web漏洞poc；
+2、程序修改为英文；
+3、加入-v 功能获取程序最新版本。
 
 
 
@@ -43,6 +40,14 @@ Windows环境安装Terminal命令行，（这样运行显示更漂亮美观）
 Linux环境使用默认命令行终端即可。
 
 # 使用命令_v1.4 版:
+
+查看程序版本：Fvuln.exe -v （如果你能直连github，即可获取程序最新版本号）
+![Image text](https://github.com/d3ckx1/Fvuln/blob/main/image/version2.png)
+
+（如果你不能直连github，即这样，你懂的）
+![Image text](https://github.com/d3ckx1/Fvuln/blob/main/image/version1.png)
+
+
 
 fofa批量搜索检测：Fvuln.exe -fofa "泛微云桥"
 

@@ -1,5 +1,5 @@
  +-----+---------------------------------+---------------------------------------------------------------------------------+
- | num |      漏洞模块名                   |                               漏洞简介                                            |
+ | num |      漏洞模块名                 |                               漏洞简介                                           |
  +-----+---------------------------------+---------------------------------------------------------------------------------+
  |  1  | ActiveMQ_weakpwd                |  Check ActiveMQ弱口令                                    
  |  2  | ActiveMQ_upload                 |  Check ActiveMQ任意文件上传漏洞(CVE-2016-3088)                                    
@@ -290,6 +290,58 @@
  | 285 | jumpserver_unauth               |  Check the JumpServer未授权RCE漏洞
  | 286 | kafka_manager_unauth            |  Check the kafka manager unauth vuln
  | 287 | spring_function_SpEL_RCE        |  Check the spring cloud function SpEL RCE漏洞
+ | 288 | Oracle_CVE202135587             |  Check the Oracle Access Manager反序列化漏洞(CVE-2021-35587)
+ | 289 | kibana_unauth                   |  Check the Kibana 未授权访问漏洞
+ | 290 | kingdee_directory_traversal     |  Check the 金蝶OA server_file 目录遍历漏洞
+ | 291 | kingsoft_v8_default_passwd      |  Check the kingsoft(金山) v8 默认密码漏洞
+ | 292 | kingsoft_v8_fileread            |  Check the kingsoft(金山) v8 文件读取漏洞
+ | 293 | kong_cve202011710_unauth        |  Check the API网关 Kong 未授权访问漏洞(CVE-2020-11710)
+ | 294 | kubernetes_unauth               |  Check the kubernetes 未授权访问漏洞
+ | 295 | kyan_password_leakage           |  Check the Kyan 网络监控设备账号密码泄露漏洞
+ | 296 | metinfo_sql1                    |  Check the Metinfo 5.3.17 X-Rewrite-url SQL注入漏洞
+ | 297 | yongyou_A6_directory_traversal  |  Check the 用友A6 createMysql.jsp 数据库敏感信息泄露漏洞
+ | 298 | spring_core_RCE                 |  Check the Spring Core RCE漏洞
+ | 299 | maccms_backdoor                 |  Check the 苹果CMS v10 后门漏洞
+ | 300 | laravel_cve20213129             |  Check the Laravel Ignition 2.5.1 代码执行漏洞（CVE-2021-3129）
+ | 301 | laravel_info_leak               |  Check the Laravel debug info-leak vuln
+ | 302 | laravel_improper_webdir         |  Check the Laravel improper webdir vuln
+ | 303 | metinfo_LFI_cnvd201813393       |  Check the MetInfo CMS任意文件读取漏洞(cnvd-2018-13393)
+ | 304 | metinfo_cve201917418            |  Check the MetInfo SQLi vuln (cve-2019-17418)
+ | 305 | metinfo_cve201916997            |  Check the MetInfo SQLi vuln (cve-2019-16997)
+ | 306 | metinfo_cve201916996            |  Check the MetInfo SQLi vuln (cve-2019-16996)
+ | 307 | minio_default_passwd            |  Check the Minio 默认密码漏洞
+ | 308 | mongo_cve201910758              |  Check the mongo-express RCE vuln (cve-2019-10758)
+ | 309 | mpsec_fileread                  |  Check the mpsec isg1000 file-read vuln
+ | 310 | msvod_sqli                      |  Check the msvod sqli vuln
+ | 311 | myucms_LFR                      |  Check the myucms load file read vuln
+ | 312 | nagio_cve201810735              |  Check the nagio commandline.php SQLi vuln (cve-2018-10735)
+ | 313 | nagio_cve201810736              |  Check the nagio info.php SQLi vuln (cve-2018-10736)
+ | 314 | nagio_cve201810737              |  Check the nagio logbook.php SQLi vuln (cve-2018-10737)
+ | 315 | nagio_cve201810738              |  Check the nagio menuaccess.php SQLi vuln (cve-2018-10738)
+ | 316 | natshell_fileread               |  Check the 蓝海卓越计费管理系统 download.php 任意文件读取 vuln
+ | 317 | QAX_wangkan_default_passwd      |  Check the 奇安信下一代网康互联网控制网关ns-icg存在弱口令漏洞
+ | 318 | netgear_cve20175521             |  Check the netgear 认证绕过漏洞 （cve-2017-5521）
+ | 319 | nexus_cve202010199              |  Check the Nexus 远程命令执行漏洞 (cve-2020-10199）
+ | 320 | nexusdb_cve202024571            |  Check the nexusdb path traversal vuln (cve-2020-24571)
+ | 321 | nhttpd_cve201916278             |  Check the Nostromo httpd RCE vuln (cve-2019-16278)
+ | 322 | NodeRED_cve20213223             |  Check the Node-RED ui_base file-read vuln (cve-2021-3223)
+ | 323 | noVNC_cve20213654               |  Check the noVNC url redirection vuln (cve-2021-3654)
+ | 324 | nps_default_passwd              |  Check the nps default password vuln
+ | 325 | QAX_wangkan_NS_fileread         |  Check the 网康 NS-ASG安全网关 任意文件读取漏洞
+ | 326 | nsfocus_uts_passwd_leak         |  Check the nsfocus uts password leak vuln
+ | 327 | nuuo_file_inclusion             |  Check the nuuo file inclusion vuln
+ | 328 | odoo_file_read                  |  Check the odoo file read vuln
+ | 329 | openfire_cve201918394           |  Check the openfire ssrf vuln (cve-2019-18394)
+ | 330 | panabit_default_password        |  Check the panabit gateway default password vuln
+ | 331 | panabit_ixcache_default_passwd  |  Check the panabit ixcache gateway default password vuln
+ | 332 | phpcms_cve201819127             |  Check the phpcms cve-2018-19127 vuln
+ | 333 | php_cve20121823                 |  Check the PHP cgi cve-2012-1823 vuln
+ | 334 | pentaho_cve202131602            |  Check the pentaho authentication bypass vuln (cve-2021-31602)
+ | 335 | pbootcms_database_download      |  Check the pbootcms database file download vuln
+ | 336 | phpmyadmin_cve201812613         |  Check the phpmyadmin file inclusion Vuln (cve-2018-12613)
+ | 337 | phpok_sqli                      |  Check the Phpok SQLi vuln
+ | 338 | opentsdb_cve202035476_rce       |  Check the OpenTSDB RCE vuln（CVE-2020-35476）
+ | 339 | pandorafms_cve201920224         |  Check the PandoraFMS v7.0NG authenticated RCE vuln (CVE-2019-20224)
  +---------------------------------------+----------------------------------------------------------------+
 
 

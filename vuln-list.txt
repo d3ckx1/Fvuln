@@ -1,5 +1,5 @@
  +-----+---------------------------------+---------------------------------------------------------------------------------+
- | num |      漏洞模块名                 |                               漏洞简介                                           |
+ | num |      漏洞模块名                   |                               漏洞简介                                            |
  +-----+---------------------------------+---------------------------------------------------------------------------------+
  |  1  | ActiveMQ_weakpwd                |  Check ActiveMQ弱口令                                    
  |  2  | ActiveMQ_upload                 |  Check ActiveMQ任意文件上传漏洞(CVE-2016-3088)                                    
@@ -11,7 +11,7 @@
  |  8  | cve_2020_3452                   |  Check the cisco readfile vuln(cve-2020-3452)                                    
  |  9  | cve_2020_8209                   |  Check the Citrix XenMobile 目录遍历漏洞（CVE-2020-8209）                          
  | 10  | ClusterEngine_TSCE_RCE          |  Check the 浪潮 ClusterEngineV4.0 任意命令执行漏洞                                
- | 11  | AfterLogicWebMai_vuln           |  Check the AfterLogicWebMai 任意命令执行漏洞                   
+ | 11  | AfterLogicWebMai_vuln           |  Check the AfterLogicWebMali 任意命令执行漏洞
  | 12  | coldfusion_file_read            |  Check the Adobe ColdFusion file read vuln (CVE-2010-2861)     
  | 13  | confluence_ssti                 |  Check the Confluence SSTI CVE-2019-3396 (fileread and RCE)     
  | 14  | coremail_cnvd201916798          |  Check the coremail vuln (cnvd-2019-16798)                     
@@ -145,7 +145,7 @@
  | 141 | crack_Redis                     |  Cracking Redis password (爆破)                                 
  | 142 | crack_memcached                 |  Check the Memcached未授权访问漏洞                               
  | 143 | crack_Elasticsearch             |  Check the Elasticsearch未授权访问漏洞
- | 144 | AfterLogicWebMail_LFI           |  Check the AfterLogicWebMail任意文件包含漏洞
+ | 144 | showdoc_default                 |  Check the showdoc default password vuln
  | 145 | httpd_cve202141773              |  Check the apache httpd RCE CVE-2021-41773 漏洞（LFI）
  | 146 | httpd_cve202141773_RCE          |  Check the apache httpd RCE CVE-2021-41773 漏洞（RCE）
  | 147 | Extmail_sql                     |  Check the ExtMail SQL注入漏洞,可获取任意用户密码
@@ -342,8 +342,46 @@
  | 337 | phpok_sqli                      |  Check the Phpok SQLi vuln
  | 338 | opentsdb_cve202035476_rce       |  Check the OpenTSDB RCE vuln（CVE-2020-35476）
  | 339 | pandorafms_cve201920224         |  Check the PandoraFMS v7.0NG authenticated RCE vuln (CVE-2019-20224)
+ | 340 | phpshe_sqli                     |  Check the phpshe SQLi vuln
+ | 341 | powercreator_fileupload         |  Check the PowerCreator CMS arbitrary file upload vuln
+ | 342 | prometheus_cve202129622         |  Check the prometheus url redirection vuln (cve-2021-29622)
+ | 343 | pulse_cve201911510              |  Check the Pulse Secure SSL VPN File Read (CVE-2019-11510)
+ | 344 | pyspider_unauthor               |  Check the Pyspider webui unauthorized-access vuln
+ | 345 | qibocms_sqli                    |  Check the qibocms SQLi vuln
+ | 346 | qilin_bastion_rce               |  Check the 中远麒麟iAudit运维审计系统未授权远程命令执行漏洞
+ | 347 | qnap_cve20197192                |  Check the qnap vuln (cve-2019-7192)
+ | 348 | rabbitmq_default_passwd         |  Check the rabbitmq default password vuln
+ | 349 | razor_cve20188770               |  Check the Cobub Razor 0.8.0 Physical path Leakage Vuln
+ | 350 | rconfig_cve201916663            |  Check the rConfig v3.9.2 unauth RCE vuln (CVE-2019-16663)
+ | 351 | resin_cnnvd200705315            |  Check the Resin 多个远程信息泄露漏洞(CNNVD-200705-315)
+ | 352 | resin_fileread                  |  Check the Resin viewfile LFI vuln
+ | 353 | rockmongo_default_passwd        |  Check the rockmongo default password vuln
+ | 354 | ruijie_EG_cli_rce               |  Check the RuiJie EG cli.php RCE vuln
+ | 355 | ruijie_EG_branch_passw_rce      |  Check the RuiJie EG branch_passw.php RCE vuln
+ | 356 | ruijie_EG_download_fileread     |  Check the RuiJie EG download.php file read vuln
+ | 357 | ruijie_EG_info_leak             |  Check the RuiJie EG info leak vuln
+ | 358 | ruijie_EG_phpinfo_view          |  Check the RuiJie EG phpinfo.view.php info vuln
+ | 359 | ruijie_yunketang_Directory      |  Check the RuiJie yunketang Directory traversal vuln
+ | 360 | ruijie_eweb_rce                 |  Check the RuiJie EWEB RCE vuln (cnvd-2021-09650)
+ | 361 | ruijie_nbr1300g_cli_passwdleak  |  Check the RuiJie nbr1300g cli password leak vuln
+ | 362 | ruoyi_management_fileread       |  Check the 若依(RuoYi) management fileread vuln
+ | 363 | SaltStack_cve202125281          |  Check the SaltStack 命令注入漏洞 (CVE-2021-25281)
+ | 364 | samsung_wea453e_default         |  Check the samsung router wlan-ap wea453e default passwd vuln
+ | 365 | samsung_wea453e_rce             |  Check the samsung router wea453e rce vuln
+ | 366 | samsung_wea453e_wlanap_rce      |  Check the samsung router WLAN AP WEA453e RCE vuln
+ | 367 | sangfor_ba_rce                  |  Check the 深信服 行为感知系统 c.php 远程命令执行漏洞
+ | 368 | satellian_cve20207980           |  Check the satellian RCE vuln (cve-2020-7980)
+ | 369 | seacms_v6_rce                   |  Check the Seacms 6.54&6.55 RCE vuln
+ | 370 | seacms_before_v992_rce          |  Check the Seacms <= 9.92 RCE Getshell vuln
+ | 371 | seacms_sqli                     |  Check the Seacms V8.7 SQLi vuln
+ | 372 | seacms_v654_rce                 |  Check the Seacms v6.54 RCE vuln
+ | 373 | seacms_v654_command             |  Check the Seacms v654 command exec vuln
+ | 374 | secnet_ac_default               |  Check the secnet ac default password vuln
+ | 375 | seeyou_a6_infoleak              |  Check the 致远OA A6 info leak vuln
+ | 376 | seeyou_cnvd202062422            |  Check the 致远OA readfile vuln (cnvd-2020-62422)
+ | 377 | seeyou_cookieleak               |  Check the 致远OA cookie leak vuln
+ | 378 | seeyou_sessionleak              |  Check the 致远OA session leak vuln
+ | 379 | seeyou_sqli                     |  Check the 致远OA wooyun 2015-0108235 sqli vuln
+ | 380 | shiziyu_apicontroller_sqli      |  Check the shiziyu cms apicontroller SQLi vuln
+ | 381 | cve_2022_1388                   |  Check the BIG_IP F5 iControl REST RCE Vuln (CVE-2022-1388)
  +---------------------------------------+----------------------------------------------------------------+
-
-
-
-

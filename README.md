@@ -16,6 +16,12 @@
     <a href="https://github.com/d3ckx1/Fvuln"><img alt="Fvuln" src="https://img.shields.io/badge/Fvuln-green"></a>
 </p>
 
+# v1.4.6 更新
+
+1、新增 42个web漏洞poc；
+2、新增多线程，扫描速度提升；
+3、修复部分漏洞poc误报、露报问题。
+
 
 # v1.4.5 更新
 

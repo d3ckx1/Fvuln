@@ -1,5 +1,5 @@
  +-----+---------------------------------+---------------------------------------------------------------------------------+
- | num |      漏洞模块名                 |                               漏洞简介                                           |
+ | num |      漏洞模块名                   |                               漏洞简介                                            |
  +-----+---------------------------------+---------------------------------------------------------------------------------+
  |  1  | ActiveMQ_weakpwd                |  Check ActiveMQ弱口令                                    
  |  2  | ActiveMQ_upload                 |  Check ActiveMQ任意文件上传漏洞(CVE-2016-3088)                                    
@@ -11,7 +11,7 @@
  |  8  | cve_2020_3452                   |  Check the cisco readfile vuln(cve-2020-3452)                                    
  |  9  | cve_2020_8209                   |  Check the Citrix XenMobile 目录遍历漏洞（CVE-2020-8209）                          
  | 10  | ClusterEngine_TSCE_RCE          |  Check the 浪潮 ClusterEngineV4.0 任意命令执行漏洞                                
- | 11  | AfterLogicWebMai_vuln           |  Check the AfterLogicWebMali 任意命令执行漏洞
+ | 11  | AfterLogicWebMail_LFI           |  Check the AfterLogicWebMail 任意命令执行漏洞
  | 12  | coldfusion_file_read            |  Check the Adobe ColdFusion file read vuln (CVE-2010-2861)     
  | 13  | confluence_ssti                 |  Check the Confluence SSTI CVE-2019-3396 (fileread and RCE)     
  | 14  | coremail_cnvd201916798          |  Check the coremail vuln (cnvd-2019-16798)                     
@@ -384,4 +384,59 @@
  | 379 | seeyou_sqli                     |  Check the 致远OA wooyun 2015-0108235 sqli vuln
  | 380 | shiziyu_apicontroller_sqli      |  Check the shiziyu cms apicontroller SQLi vuln
  | 381 | cve_2022_1388                   |  Check the BIG_IP F5 iControl REST RCE Vuln (CVE-2022-1388)
+ | 382 | showdoc_uploadfile              |  Check the showdoc uploadfile vuln
+ | 383 | skywalking_CVE20209483          |  Check the skywalking sqli vuln (cve-2020-9483)
+ | 384 | solarwinds_cve202010148         |  Check the SolarWinds Orion API RCE vuln (cve-2020-10148)
+ | 385 | solr_cve201712629               |  Check the apache Solr cve-2017-12629 XXE vuln
+ | 386 | solr_velocity_rce               |  Check the apache Solr Velocity Custom Template (CVE-2019-17558)
+ | 387 | sonarqube_cve202027986          |  Check the sonarqube unauth vuln (cve-2020-27986)
+ | 388 | spark_api_unauth                |  Check the spark api unauth vuln
+ | 389 | spark_webui_unauth              |  Check the spark webui unauth vuln
+ | 390 | spon_intercom_fileread          |  Check the spon-ip intercom file read vuln
+ | 391 | spon_intercom_pingrce           |  Check the spon-ip intercom ping rce vuln
+ | 392 | spring_cve20205405              |  Check the spring cloud config server vuln（CVE-2020-5405）
+ | 393 | spring_cve20164977              |  Check the Spring Security OAuth2 RCE Vuln(CVE-2016-4977)
+ | 394 | springboot_env_unauth           |  Check the springboot env unauth Vuln
+ | 395 | supervisord_cve201711610        |  Check the Supervisord RCE vuln (CVE-2017-11610)
+ | 396 | tamronos_iptv_rce               |  Check the TamronOS IPTV RCE vuln
+ | 397 | telecom_gateway_default         |  Check the Telecom gateway default password vuln
+ | 398 | tensorboard_unauth              |  Check the TensorBoard unauth vuln
+ | 399 | terramaster_cve202015568        |  Check the TerraMaster OS exportUser.php RCE vuln(cve-2020-15568)
+ | 400 | terramaster_cve202028188        |  Check the TerraMaster TOS RCE vuln(cve-2020-28188)
+ | 401 | ThinkCMF_lfi                    |  Check the ThinkCMF 任意内容包含漏洞
+ | 402 | thinkphp_v6_filewrite           |  Check the ThinkPHP v6 file write vuln
+ | 403 | tomcat_cve201811759             |  Check the Tomcat CVE-2018-11759 vuln
+ | 404 | tongda_user_session             |  Check the 通达OA v11.7 在线用户登录漏洞
+ | 405 | tpshop_directory                |  Check the TPshop directory traversal vuln
+ | 406 | tpshop_sqli                     |  Check the TPshop <3.0 SQLi vuln
+ | 407 | tvt_nvms_cve201920085           |  Check the TVT NVMS 1000 file read vuln(cve-2019-20085)
+ | 408 | typecho_rce                     |  Check the typecho < 1.1(17.10.24) RCE vuln
+ | 409 | ueditor_fileupload              |  Check the UEditor .Net file upload vuln (cnvd-2017-20077)
+ | 410 | uwsgi_cve20187490               |  Check the uWSGI PHP Directory Traversal Vuln (CVE-2018-7490)
+ | 411 | vmware_vcenter_cve202121985     |  Check the VMware vCenter RCE vuln (cve-2021-21985)
+ | 412 | weblogic_ssrf                   |  Check the weblogic SSRF Vuln
+ | 413 | weblogic_cve202014750           |  Check the weblogic CVE-2020-14750 Vuln
+ | 414 | weblogic_cve201710271           |  Check the weblogic CVE-2017-10271 Vuln
+ | 415 | weiphp_sqli                     |  Check the weiphp<=5.0 SQLi Vuln
+ | 416 | weiphp_path_traversal           |  Check the weiphp path traversal Vuln (CNVD-2020-68596)
+ | 417 | wifisky_cnvd202139012           |  Check the wifisky default password vuln (cnvd-2021-39012)
+ | 418 | wordpress_cve201919985          |  Check the wordpress Email Subscribers File Down vuln (cve-2019-19985)
+ | 419 | wordpress_cve201914205          |  Check the wordpress ext adaptive images LFI vuln (CVE-2019-14205)
+ | 420 | wuzhicms_v410_sqli              |  Check the wuzhicms v4.1.0 sms_check.php SQLi vuln
+ | 421 | xdcms_sqli                      |  Check the XDCMS SQLi vuln
+ | 422 | xiuno_cvnd201901348             |  Check the Xiuno BBS reinstallation vuln(cvnd-2019-01348)
+ | 423 | yccms_v3_rce                    |  Check the YCCMS v3.3 RCE vuln
+ | 424 | yapi_rce                        |  Check the Yapi RCE vuln
+ | 425 | yongyou_nc6_file_upload         |  Check the 用友nc 6.5 文件上传漏洞
+ | 426 | youphptube_cve20195127          |  Check the youphptube encoder cve-2019-5127 vuln
+ | 427 | youphptube_cve20195128          |  Check the youphptube encoder cve-2019-5128 vuln
+ | 428 | youphptube_cve20195129          |  Check the youphptube encoder cve-2019-5129 vuln
+ | 429 | yungoucms_sqli                  |  Check the yungoucms sqli vuln
+ | 430 | confluence_cve202226134         |  Check the Atlassian Confluence RCE漏洞（CVE-2022-26134）
+ | 431 | zabbix_auth                     |  Check the zabbix authentication bypass vuln
+ | 432 | zabbix_cve201610134             |  Check the zabbix latest.php SQLi vuln(CVE-2016-10134)
+ | 433 | zcms_v3_sqli                    |  Check the ZCMS v3.0 SQLi vuln
+ | 434 | zeit_cve20205284                |  Check the ZEIT Next.js directory traversal vuln(cve-2020-5284)
+ | 435 | zeroshell_cve201912725          |  Check the ZeroShell 3.9.0 RCE vuln(CVE-2019-12725)
+ | 436 | zzcms_zsmanage_sqli             |  Check the ZZCMS201910 zsmanage SQLi vuln
  +---------------------------------------+----------------------------------------------------------------+

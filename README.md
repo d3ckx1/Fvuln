@@ -16,18 +16,18 @@
     <a href="https://github.com/d3ckx1/Fvuln"><img alt="Fvuln" src="https://img.shields.io/badge/Fvuln-green"></a>
 </p>
 
+# v1.4.7 更新
+
+1、新增55个漏洞检测；（现共436个漏洞模块）
+2、新增centos程序版本；
+3、修复多个漏洞误报。（感谢@JAKY老师的反馈）
+
+
 # v1.4.6 更新
 
 1、新增 42个web漏洞poc；
 2、新增多线程，扫描速度提升；
 3、修复部分漏洞poc误报、漏报问题。
-
-
-# v1.4.5 更新
-
-1、新增 52个web漏洞poc；
-2、程序修改为英文；
-3、加入-v 功能获取程序最新版本。
 
 
 

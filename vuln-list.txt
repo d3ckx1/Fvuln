@@ -439,4 +439,28 @@
  | 434 | zeit_cve20205284                |  Check the ZEIT Next.js directory traversal vuln(cve-2020-5284)
  | 435 | zeroshell_cve201912725          |  Check the ZeroShell 3.9.0 RCE vuln(CVE-2019-12725)
  | 436 | zzcms_zsmanage_sqli             |  Check the ZZCMS201910 zsmanage SQLi vuln
+ | 437 | shiziyu_apigoodsController_sqli |  Check the shiziyu cms ApigoodsController.class.php SQLi vuln
+ | 438 | jinher_oa_file_read             |  Check the 金和OA C6 download.jsp 任意文件读取漏洞
+ | 439 | Alibaba_Accesskey_Leak          |  Check the Alibaba Canal Accesskey Information Leakage vuln
+ | 440 | ICEFlow_vpn_Information_Leak    |  Check the CEFlow VPN Information Leakage vuln
+ | 441 | bullwark_momentum_lfi           |  Check the Bullwark Momentum Series JAWS 1.0 LFI vuln
+ | 442 | cisco_cve20191653               |  Check the Cisco readfile vuln(cve-2020-3452)
+ | 443 | sap_cve201712637                |  Check the SAP NetWeaver path traversal vuln (cve-2017-12637)
+ | 444 | sap_cve20206287                 |  Check the SAP NetWeaver AS JAVA vuln (CVE-2020-6287)
+ | 445 | idrac_weak_passwd               |  Check the DELL idrac weak passwd vuln
+ | 446 | sharepoint_cve20201147          |  Check the sharepoint RCE vuln (cve-2020-1147)
+ | 447 | LionfishCMS_ApiController_SQL   |  Check the 狮子鱼CMS ApiController.class.php SQL注入漏洞
+ | 448 | LionfishCMS_Apigoods_SQL        |  Check the 狮子鱼CMS ApigoodsController.class.php SQL注入漏洞
+ | 449 | kingsoft_pdf_maker_RCE          |  Check the kingsoft 金山 V8 终端安全系统 pdf_maker.php 命令执行漏洞
+ | 450 | weblogic_RCE_CVE202014882       |  Check the Weblogic CVE-2020-14882 RCE Vuln
+ | 451 | IceWarp_WebClient_RCE           |  Check the IceWarp WebClient Basic RCE vuln
+ | 452 | Duoke_Default_passwd            |  Check the Duoke-Web-Server 存在默认密码 admin/admin
+ | 453 | zhongqingnabo_info              |  Check the zhongqingnabo 信息泄露漏洞
+ | 454 | cisco_Read_Only                 |  Check the Cisco Read-Only Path Traversal Vuln
+ | 455 | omigod_CVE202138647             |  Check the OMI RCE vuln (CVE_2021_38647)
+ | 456 | huayu_reporter_rce              |  Check the 华域Reporter assembly RCE vuln
+ | 457 | Aviatrix_CVE202140870           |  Check the Aviatrix Controller RCE vuln (CVE_2021_40870)
+ | 458 | Metabase_cve202141277           |  Check the Metabase 任意文件读取漏洞（CVE-2021-41277）
+ | 459 | ecology_cnvd202149104           |  Check the 泛微E-Office文件上传漏洞（CNVD-2021-49104）
+ | 460 | beescms_sqli                    |  Check the beescms XFF注入漏洞
  +---------------------------------------+----------------------------------------------------------------+

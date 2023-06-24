@@ -16,6 +16,12 @@
     <a href="https://github.com/d3ckx1/Fvuln"><img alt="Fvuln" src="https://img.shields.io/badge/Fvuln-green"></a>
 </p>
 
+# v1.4.9 更新
+1、修复漏洞误报；
+2、新增单独或批量漏洞扫描功能，-s 参数；
+3、新增33个POC；
+4、去掉一些banner。
+
 # v1.4.8 更新
 1、新增25个漏洞检测；（现共460个漏洞模块）
 2、新增在服务爆破功能提示处，不操作8秒后自动进行爆破功能；
@@ -29,12 +35,6 @@
 2、新增centos程序版本；
 3、修复多个漏洞误报。（感谢@Jaky老师的反馈）
 
-
-# v1.4.6 更新
-
-1、新增 42个web漏洞poc；
-2、新增多线程，扫描速度提升；
-3、修复部分漏洞poc误报、漏报问题。
 
 
 
@@ -53,6 +53,8 @@ Windows环境安装Terminal命令行，（这样运行显示更漂亮美观）
 Linux环境使用默认命令行终端即可。
 
 # 使用命令_v1.4 版:
+
+Fvuln.exe -s tomcat -u http://192.168.0.100/
 
 查看程序版本：Fvuln.exe -v （如果你能直连github，即可获取程序最新版本号）
 ![Image text](https://github.com/d3ckx1/Fvuln/blob/main/image/version2.png)

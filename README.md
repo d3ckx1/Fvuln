@@ -70,7 +70,7 @@ fofa批量搜索检测：Fvuln.exe -fofa "泛微云桥"
 ![Image text](https://github.com/d3ckx1/Fvuln/blob/main/image/fofa.png)
 
  注：再同目录下创建“key.txt”文件，文件内第一行写入邮箱地址；第二行写入你的key
- ![Image text](https://github.com/d3ckx1/Fvuln/blob/main/image/key.png)
+
 
 
 
@@ -128,7 +128,7 @@ https://github.com/d3ckx1/Fvuln/releases
 
 # 欢迎大家使用，并向我提出宝贵意见，以及欢迎大家给我提供poc/exp.
 
-![Image text](https://github.com/d3ckx1/Fvuln/blob/main/image/%E5%BE%AE%E4%BF%A1.jpg)
+
 
 ## 🏁 Star曲线
 ![star](https://starchart.cc/d3ckx1/Fvuln.svg)
